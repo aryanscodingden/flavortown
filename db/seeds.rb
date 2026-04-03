@@ -66,7 +66,7 @@ end
 
 Sidequest.find_or_create_by!(slug: "caffeinated") do |sq|
   sq.title = "Caffeinated"
-  sq.description = "Build and ship a website to unlock a caffeine grant in the shop."
+  sq.description = "Build and ship a project to unlock a caffeine grant in the shop."
 end
 
 Sidequest.find_or_create_by!(slug: "the_hackazine") do |sq|
